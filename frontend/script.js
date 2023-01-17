@@ -8,7 +8,7 @@ $(document).ready(function(){
 		event.preventDefault();
 		
 		$.ajax({
-			url: '/data-driven/classify/',
+			url: '/classify/',
 			type: 'POST',
 			data: new FormData(this),
 			dataType: 'json',
