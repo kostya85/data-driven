@@ -1,0 +1,8 @@
+h2{
+    cursor: pointer;
+    color: #033950;
+}
+
+.expand-container{
+    display: none;
+}
